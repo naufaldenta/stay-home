@@ -59,7 +59,9 @@
     color: #3274CC;
     ;
 }
-
+.mt-20 {
+    margin-top: 2.5rem;
+}
 
 .mt-10 {
     margin-top: 10px;
@@ -82,4 +84,22 @@
     border-radius: 30px;
     color: #3274CC;
     text-decoration: none;
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.content-1 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.content-web {
+    margin-top: 5rem;
+}
+
+*::selection {
+    background-color: #00ba10;
 }
