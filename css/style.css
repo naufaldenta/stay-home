@@ -45,8 +45,10 @@
 }
 
 .donate:hover {
-    color: white;
     background-color: transparent;
+}
+.donate:hover a {
+    color: white;
 }
 
 .hero {
@@ -73,13 +75,13 @@
 .btn-1 {
     text-decoration: none;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 2.4em;
     background-color: #3274CC;
     border-radius: 30px;
     border: solid 2px #3274CC;
 }
 .btn-2 {
-    padding: 10px 20px;
+    padding: 10px 2.4em;
     border: solid 2px #3274CC;
     border-radius: 30px;
     color: #3274CC;
@@ -97,9 +99,30 @@
     gap: 2rem;
 }
 .content-web {
-    margin-top: 5rem;
+    margin-top: 9em;
 }
 
 *::selection {
     background-color: #00ba10;
+}
+.card1, .card2, .card3 {
+    box-shadow: 0px 4px 8px 0px #00000040;
+    padding: 16px 18px;
+    max-width: 239px;
+    height: 324px;
+    border-radius: 16px;
+  
+
+}
+.main {
+    margin: 3rem 0px;
+    text-align: center;
+    margin
+
+}
+.tri-card {
+    margin-top: 3.7em;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
 }
