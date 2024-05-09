@@ -45,6 +45,7 @@
 }
 
 .donate:hover {
+    
     background-color: transparent;
 }
 .donate:hover a {
@@ -117,7 +118,6 @@
 .main {
     margin: 3rem 0px;
     text-align: center;
-    margin
 
 }
 .tri-card {
